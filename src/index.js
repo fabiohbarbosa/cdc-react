@@ -1,10 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-
-import './index.css';
+import Autor from './Autor';
+import LeftBar from './components/LeftBar';
 
 ReactDOM.render(
-	<App/>,
+	<LeftBar/>,
+  document.getElementById('leftbar')
+);
+
+ReactDOM.render(
+	<Autor/>,
   document.getElementById('root')
 );

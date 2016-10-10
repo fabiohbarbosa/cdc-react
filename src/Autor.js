@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
-import './App.css';
 
 // pure
 import './css/pure-min.css';
 import './css/side-menu.css';
 
 // components
-import LeftBar from './components/LeftBar';
 import CustomForm from './components/CustomForm';
 import CustomInput from './components/CustomInput';
 import CustomButtonSubmit from './components/CustomButtonSubmit';
@@ -79,7 +77,6 @@ class App extends Component {
   render() {
     return (
       <div id="layout">
-        <LeftBar />
 
         <div id="main">
           <div className="header">
