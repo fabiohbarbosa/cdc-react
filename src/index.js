@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Autor from './Autor';
+import App from './App';
 import LeftBar from './components/LeftBar';
 
 ReactDOM.render(
@@ -9,6 +9,6 @@ ReactDOM.render(
 );
 
 ReactDOM.render(
-	<Autor/>,
+	<App/>,
   document.getElementById('root')
 );
